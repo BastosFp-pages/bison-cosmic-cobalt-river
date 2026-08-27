@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Central de informações da coleta de lixo",
+      "hasCanvas": false,
+      "bodyTextLen": 93,
+      "bodyTextHash": "2f4c2c491dda41f976ee07a336da0026210eb9988c94f4b5418591700db11c77",
+      "bodyTextPrefix": "Carregando a malha do Lote I Rotas validadas, estatísticas por t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Central de informações da coleta de lixo",
+      "hasCanvas": false,
+      "bodyTextLen": 93,
+      "bodyTextHash": "2f4c2c491dda41f976ee07a336da0026210eb9988c94f4b5418591700db11c77",
+      "bodyTextPrefix": "Carregando a malha do Lote I Rotas validadas, estatísticas por t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: canvas disappeared",
+    "desktop: body text collapsed (717 -> 93 chars)",
+    "mobile: canvas disappeared",
+    "mobile: body text collapsed (627 -> 93 chars)"
+  ]
+}

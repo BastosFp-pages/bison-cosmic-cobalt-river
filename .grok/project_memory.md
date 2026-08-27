@@ -1,0 +1,3 @@
+- Metodologia de validação de rotas: join entre pontos GPS e buffers ("atendido"/"não atendido") + hit rate mínimo de 66,7% por bloco de dias da semana. Trechos de motocicleta excluídos. [2026-07-21]
+- Para "ruas sem rota" não há bloco pré-definido; recomenda-se calcular hit rates nos 4 blocos possíveis e escolher o de maior aderência. [2026-07-21]
+- Janelas temporais ETR–rotas (atualização 26-08-2026): parada ≥ 1 h no polígono "Garagem da Estevão" (campo Name) quebra a janela. Peso do tíquete = último ponto na garagem → Entrada ETR. Trecho Saída ETR → entrada na garagem fica sem peso e sem N_Operacao (passagem ETR–garagem). Sem parada na garagem, mantém Saída anterior → Entrada seguinte. [2026-08-26]
